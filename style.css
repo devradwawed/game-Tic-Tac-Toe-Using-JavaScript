@@ -18,7 +18,7 @@ section .title{
   -moz-border-radius: 0px 10px 0px 10px;
   -ms-border-radius: 0px 10px 0px 10px;
   -o-border-radius: 0px 10px 0px 10px;
-  font-size: 25px;
+  font-size: 45px;
 }
 .game{
   display: flex;
@@ -29,6 +29,9 @@ span {
   color: #fa0;
 }
 .square {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   width: 31.333%;
   height: 14vh;
   background-color: #3c5750;
@@ -39,9 +42,7 @@ span {
   -moz-transition: all .2s ease-in;
   -ms-transition: all .2s ease-in;
   -o-transition: all .2s ease-in;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+
 }
 .square:hover{
   background-color: #1f2b27;
